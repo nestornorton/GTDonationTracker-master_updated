@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="367dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/location_card_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/textview"
+            android:textColor="#FF000000"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/location_card_type"
+            app:layout_constraintTop_toBottomOf="@+id/location_card_type" />
+
+        <TextView
+            android:id="@+id/location_card_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/textview"
+            android:textColor="@color/grey_500"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/location_card_street"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/textview"
+            android:textColor="@color/grey_500"
+            app:layout_constraintStart_toStartOf="@+id/location_card_name"
+            app:layout_constraintTop_toBottomOf="@+id/location_card_name" />
+
+        <TextView
+            android:id="@+id/location_card_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/location_card_type"
+            android:text="@string/textview"
+            android:textColor="@color/grey_500"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/location_card_type" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</RelativeLayout>

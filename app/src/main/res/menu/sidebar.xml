@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/sidebar_home"
+            android:title="@string/sidebar_home" />
+        <item
+            android:id="@+id/sidebar_person_info"
+            android:title="@string/sidebar_person_info" />
+
+        <item
+            android:id="@+id/sidebar_import_location"
+            android:title="@string/sidebar_import_location" />
+        <item
+            android:id="@+id/sidebar_import_items"
+            android:title="@string/sidebar_import_itmes" />
+
+        <item
+            android:id="@+id/sidebar_about"
+            android:title="@string/sidebar_about" />
+        <item
+            android:id="@+id/sidebar_logout"
+            android:title="@string/sidebar_logout" />
+
+
+    </group>
+</menu>

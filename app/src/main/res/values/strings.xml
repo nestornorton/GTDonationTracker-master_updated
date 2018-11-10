@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">GTDonationTracking</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="login">LOGIN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="forget_password">Forget Password?</string>
+
+    <!-- Strings related to login/register errors -->
+    <string name="error_invalid_email">This email address is invalid.</string>
+    <string name="error_invalid_password">Password should be at least 6 digits, and not purely numbers.</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required.</string>
+    <string name="password_not_match">The password does not match.</string>
+    <string name="error_registration_failed">Oops. Registration has failed.</string>
+
+    <string name="auth_failed">Authentication failed</string>
+
+    <string name="hint_user_id">User ID</string>
+
+    <!-- Strings related to registration -->
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="send_link">Send Link</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="loading">Loading…</string>
+    <string name="signed_in">Signed In</string>
+    <string name="signed_out">You are currently signed out.</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_real_name">Full Name</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="desc_gatech_lockup">Georgia Tech logo and name</string>
+    <string name="hint_verification_code">Verification Code</string>
+    <string name="status_code_sent">Code Sent</string>
+    <string name="status_verification_failed">Verification failed</string>
+    <string name="status_verification_succeeded">Verification succeeded</string>
+    <string name="status_sign_in_failed">Sign-in failed</string>
+    <string name="instant_validation">(instant validation)</string>
+
+
+    <string name="status_email_not_sent">Send link to your email to get started.</string>
+    <string name="status_email_sent">Link sent, check your email to continue.</string>
+    <string name="status_link_found">Link received, enter email to sign in.</string>
+
+    <string name="twitter_status_fmt">Twitter User: %s</string>
+    <string name="twitter_title_text">Twitter Login</string>
+
+    <string name="firebaseui_status_fmt">Firebase User: %s</string>
+    <string name="firebaseui_title_text">FirebaseUI Auth</string>
+
+    <string name="id_fmt">User ID: %s</string>
+    <string name="email_fmt">Email: %s</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings related to bottom navigation bar -->
+    <string name="title_activity_base">Donation Tracker</string>
+    <string name="title_activity_main">Donation Tracker</string>
+    <string name="title_activity_user_info_edit">Edit User Info</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="title_activity_user_edit">Donation Tracker</string>
+
+    <string name="footage">Source code available under GPLv3.</string>
+
+    <string name="title_people">People</string>
+    <string name="title_donation">Donation</string>
+    <string name="title_location">Location</string>
+
+    <!-- Strings related to slide drawer -->
+    <string name="sidebar_home">Home</string>
+    <string name="sidebar_person_info">Personal Info</string>
+    <string name="sidebar_admin_tools">Administrator Tools</string>
+    <string name="sidebar_import_location">Location Import...</string>
+    <string name="sidebar_import_itmes">Item Import...</string>
+    <string name="sidebar_about">About</string>
+    <string name="sidebar_logout">Logout</string>
+
+    <string name="exit_hint">Press Back again to Exit.</string>
+    <string name="import_csv_error">An error occurred during file import. Please try again.</string>
+    <string name="import_csv_start">Start importing locations...</string>
+    <string name="import_csv_end">Locations imported!</string>
+
+    <string name="textview">TextView</string>
+
+    <string name="hint_item_name">Item Name</string>
+    <string name="hint_item_category">Item Category</string>
+    <string name="donation_add">Add Donation Item</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_basic">Basic</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="header_filters">Filter</string>
+    <string name="apply">Apply</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_entry">No matched result found!</string>
+
+
+</resources>

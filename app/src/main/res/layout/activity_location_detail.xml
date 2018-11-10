@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LocationDetailActivity">
+
+    <TextView
+        android:id="@+id/location_detail_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="24dp"
+        android:text="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/location_detail_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="AFD Station 4"
+        app:layout_constraintStart_toStartOf="@+id/location_detail_key"
+        app:layout_constraintTop_toBottomOf="@+id/location_detail_key" />
+
+    <TextView
+        android:id="@+id/location_detail_latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="33.75416"
+        app:layout_constraintStart_toStartOf="@+id/location_detail_key"
+        app:layout_constraintTop_toBottomOf="@+id/location_detail_name" />
+
+    <TextView
+        android:id="@+id/location_detail_longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="-84.37742"
+        app:layout_constraintStart_toEndOf="@+id/location_detail_latitude"
+        app:layout_constraintTop_toTopOf="@+id/location_detail_latitude" />
+
+    <TextView
+        android:id="@+id/location_detail_addr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="309 EDGEWOOD AVE SE"
+        app:layout_constraintStart_toStartOf="@+id/location_detail_key"
+        app:layout_constraintTop_toBottomOf="@+id/location_detail_longitude" />
+
+    <TextView
+        android:id="@+id/location_detail_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Atlanta"
+        app:layout_constraintStart_toStartOf="@+id/location_detail_key"
+        app:layout_constraintTop_toBottomOf="@+id/location_detail_addr" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="GA"
+        app:layout_constraintStart_toEndOf="@+id/location_detail_city"
+        app:layout_constraintTop_toTopOf="@+id/location_detail_city" />
+
+    <TextView
+        android:id="@+id/location_detail_zip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="30332"
+        app:layout_constraintStart_toStartOf="@+id/location_detail_key"
+        app:layout_constraintTop_toBottomOf="@+id/location_detail_city" />
+
+    <TextView
+        android:id="@+id/location_detail_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Drop Off"
+        app:layout_constraintStart_toStartOf="@+id/location_detail_key"
+        app:layout_constraintTop_toBottomOf="@+id/location_detail_zip" />
+
+    <TextView
+        android:id="@+id/location_detail_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="(404) 555 - 3456"
+        app:layout_constraintStart_toStartOf="@+id/location_detail_key"
+        app:layout_constraintTop_toBottomOf="@+id/location_detail_type" />
+
+    <TextView
+        android:id="@+id/location_detail_website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:text="www.afd04.atl.ga"
+        app:layout_constraintStart_toEndOf="@+id/location_detail_phone"
+        app:layout_constraintTop_toTopOf="@+id/location_detail_phone" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_donation_on_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:scrollbars="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/location_detail_phone">
+
+    </android.support.v7.widget.RecyclerView>
+
+</android.support.constraint.ConstraintLayout>
